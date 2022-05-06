@@ -1,9 +1,11 @@
 import React from 'react';
-
+import banner from '../../images/banner.jpg'
 const Banner = () => {
     return (
         <div>
-            <h2 className='bg-cyan-600 text-bold'>Hello world..!!</h2>
+            
+           <img src={banner} alt=""  />
+           
         </div>
     );
 };
