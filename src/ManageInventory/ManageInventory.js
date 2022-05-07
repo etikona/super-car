@@ -7,7 +7,7 @@ const ManageInventory = (props) => {
             <img src={img} alt="" />
             <h3>{name}</h3>
             <p>price:{price}</p>
-            <p>Description:<small>{description}</small></p>
+            <p>Description:<small>{description.slice(0, 50)}</small></p>
             <h4>Quntity:{quantity}</h4>
             <h6>Suplier Name:{suplierName}</h6>
         </div>

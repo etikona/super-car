@@ -13,7 +13,7 @@ console.log(inventories);
             <h3>Welcome to my Home</h3>
             <Banner></Banner>
             <div>
-               <h2>Items are here</h2>
+               <h1>ITEMS</h1>
       {
           inventories.map(inventory => <Items key={inventory.id} inventory={inventory} ></Items>)
       }
