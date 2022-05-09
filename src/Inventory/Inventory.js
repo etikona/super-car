@@ -47,13 +47,14 @@ const Inventory = () => {
         }
     }
 
+
     return (
         <div>
             <h2>Inventories</h2>
             <h1>Inventory: {inventories.length}</h1>
          <ol>
              {
-                 inventories.map(inventory => <li className='container ' key={inventory._id}>{inventory.name} : {inventory.quantity} : {inventory.description.slice(0, 75)}
+                 inventories.map(inventory => <li className='container ' key={inventory._id}>{inventory.name} : {inventory.quantity} : {inventory.description}
                  <button onClick={() => handleDelete(inventory._id)}>Delsivered❌</button>
                  <br />
                  <button>Restoke✔</button>

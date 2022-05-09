@@ -37,4 +37,16 @@
   }
 }
 
-
+button{
+  background-color: cadetblue;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  background-color: cadetblue;
+  color: whitesmoke;
+  padding: 5px;
+  border-radius: 5px;
+}
