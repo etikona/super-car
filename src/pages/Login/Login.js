@@ -95,7 +95,7 @@ const Login = () => {
                     <input type="password" placeholder=' password' onChange={handlePassword} />
                     {errors?.password && <p className='error-msg'>{errors.password}</p>}
                     <br />
-                    <button className='btn btn-dark mt-3 w-75' type="submit">Login</button>
+                    <button className='btn-primary' type="submit">Login</button>
                     <p> <Link to="/signin">Sign in first</Link></p>
                     {/* {error && <p className='error-msg'>{error}</p>} */}
                     {/* {hookError && <p>{hookError?.message}</p>} */}

@@ -1,6 +1,7 @@
 .container{
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 50px;
     border:2px solid #53303b;
     border-radius: 10px;
     width: 300px;
@@ -15,6 +16,8 @@
         box-shadow: inset 25px 25px 50px #b5bdc4,
                     inset -25px -25px 50px #f5ffff;
     }
+
+   
     .error-msg{
         color: red;
     }
